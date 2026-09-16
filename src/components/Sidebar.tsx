@@ -84,11 +84,15 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
             {!isCollapsedDesktop && (
               <div className="flex flex-col truncate">
-                <span className="font-serif font-bold text-base tracking-tight text-[#1A2E19] dark:text-white flex items-center gap-1.5">
-                  EcoBuddy <span className="text-emerald-600 dark:text-emerald-400">AI</span>
+                <span className={`font-serif font-bold text-base tracking-tight flex items-center gap-1.5 ${
+                  darkMode ? 'text-white' : 'text-[#1A2E19]'
+                }`}>
+                  EcoBuddy <span className={darkMode ? 'text-emerald-400' : 'text-emerald-600'}>AI</span>
                 </span>
-                <span className="text-[10px] uppercase font-bold tracking-wider text-[#4A5D48] dark:text-[#A1AD9E]">
-                  SaaS Eco Assistant
+                <span className={`text-[10px] uppercase font-bold tracking-wider ${
+                  darkMode ? 'text-[#A1AD9E]' : 'text-[#4A5D48]'
+                }`}>
+                  Eco Assistant
                 </span>
               </div>
             )}

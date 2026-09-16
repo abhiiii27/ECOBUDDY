@@ -46,7 +46,7 @@ export const AboutModal: React.FC<AboutModalProps> = ({ isOpen, onClose, darkMod
         {/* Content Body */}
         <div className="py-5 space-y-4 text-xs leading-relaxed">
           <p className={`${darkMode ? 'text-[#C5CDC0]' : 'text-[#3E523B]'}`}>
-            <strong>EcoBuddy AI</strong> is an intelligent SaaS conversational assistant designed to bridge the gap between daily consumer habits and practical environmental sustainability.
+            <strong>EcoBuddy AI</strong> is an intelligent conversational assistant designed to bridge the gap between daily consumer habits and practical environmental sustainability.
           </p>
 
           <div className={`p-4 rounded-2xl border space-y-2.5 ${

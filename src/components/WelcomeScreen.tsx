@@ -88,7 +88,7 @@ export const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onSelectPrompt, da
         <h1 className={`text-3xl sm:text-4xl font-extrabold font-serif tracking-tight ${
           darkMode ? 'text-[#E5E9E1]' : 'text-[#1A2E19]'
         }`}>
-          EcoBuddy <span className="text-emerald-600 dark:text-emerald-400">AI</span>
+          EcoBuddy <span className={darkMode ? 'text-emerald-400' : 'text-emerald-600'}>AI</span>
         </h1>
       </div>
 
