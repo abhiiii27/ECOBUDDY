@@ -189,3 +189,8 @@ EcoBuddy AI is built to plug directly into the **EcoSort** waste management ecos
 
 ## 📄 License
 Apache-2.0 License - Open Source for Sustainable Communities.
+
+## Author 
+
+Github:  https://www.github.com/in/abhiiii27
+Linkedin: https://www.linkedin.com/in/abhishekburan27/
