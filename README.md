@@ -192,5 +192,5 @@ Apache-2.0 License - Open Source for Sustainable Communities.
 
 ## Author 
 
-Github:  https://www.github.com/in/abhiiii27
+Github:  https://github.com/abhiiii27
 Linkedin: https://www.linkedin.com/in/abhishekburan27/
